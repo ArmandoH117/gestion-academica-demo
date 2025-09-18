@@ -1,1 +1,1 @@
-# Gestión Académica Demo
+# Gestión Académica Demo (Login con "Iniciar sesión")
