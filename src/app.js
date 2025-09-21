@@ -51,3 +51,16 @@ console.log("Raíz cuadrada:", calc.raizCuadrada(25));
 console.log("Porcentaje:", calc.porcentaje(200, 15));
 
 module.exports = Calculadora;
+
+console.log('Módulo de autenticación de usuarios cargado.');
+
+function login(user, password) {
+  if (user === 'admin' && password === '1234') {
+    console.log('Acceso concedido. Redirigiendo al dashboard...');
+    return true;
+  }
+  console.log('Credenciales incorrectas. Acceso denegado.');
+  return false;
+}
+
+login('admin', '1234');
